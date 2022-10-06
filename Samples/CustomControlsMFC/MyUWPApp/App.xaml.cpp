@@ -5,6 +5,7 @@
 
 #include "App.xaml.h"
 #include "MainWindow.xaml.h"
+#include "App.g.cpp"
 
 using namespace winrt;
 using namespace Windows::Foundation;
@@ -14,9 +15,6 @@ using namespace Microsoft::UI::Xaml::Navigation;
 using namespace MyUWPApp;
 using namespace MyUWPApp::implementation;
 
-//#include "pch.h"
-//#include "App.h"
-#include "App.g.cpp"
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 namespace winrt::MyUWPApp::implementation
