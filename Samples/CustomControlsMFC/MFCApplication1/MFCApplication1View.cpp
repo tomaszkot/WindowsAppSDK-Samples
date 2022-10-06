@@ -25,7 +25,7 @@ using namespace Windows::Foundation::Numerics;
 using namespace Windows::UI::Xaml::Controls;
 
 winrt::MyUWPApp::App hostApp{ nullptr };
-//winrt::Windows::UI::Xaml::Hosting::DesktopWindowXamlSource _desktopWindowXamlSource{ nullptr };
+winrt::Windows::UI::Xaml::Hosting::DesktopWindowXamlSource _desktopWindowXamlSource{ nullptr };
 winrt::MyUWPApp::MyUserControl _myUserControl{ nullptr };
 // CMFCApplication1View
 
