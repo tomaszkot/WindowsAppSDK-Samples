@@ -12,21 +12,22 @@
 
 #include "MFCApplication1Doc.h"
 #include "MFCApplication1View.h"
+//#include <windows.ui.xaml.hosting.desktopwindowxamlsource.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
-using namespace winrt;
-using namespace Windows::UI;
-using namespace Windows::UI::Composition;
-using namespace Windows::UI::Xaml::Hosting;
-using namespace Windows::Foundation::Numerics;
-using namespace Windows::UI::Xaml::Controls;
+//using namespace winrt;
+//using namespace Windows::UI;
+//using namespace Windows::UI::Composition;
+//using namespace Windows::UI::Xaml::Hosting;
+//using namespace Windows::Foundation::Numerics;
+//using namespace Windows::UI::Xaml::Controls;
 
-winrt::MyUWPApp::App hostApp{ nullptr };
-//winrt::Windows::UI::Xaml::Hosting::DesktopWindowXamlSource _desktopWindowXamlSource{ nullptr };
-winrt::MyUWPApp::MyUserControl _myUserControl{ nullptr };
+//winrt::MyUWPApp::App hostApp{ nullptr };
+//winrt::Microsoft::UI::Xaml::Hosting::DesktopWindowXamlSource _desktopWindowXamlSource{ nullptr };
+//winrt::MyUWPApp::MyUserControl _myUserControl{ nullptr };
 // CMFCApplication1View
 
 IMPLEMENT_DYNCREATE(CMFCApplication1View, CView)
